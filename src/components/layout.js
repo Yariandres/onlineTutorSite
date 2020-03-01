@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "../css/base.scss"
-import Nav from "./nav"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,7 +25,7 @@ const Layout = ({ children }) => {
   return (
     <>      
       <main>
-      <Nav/>
+
       {children}
       
       </main>       

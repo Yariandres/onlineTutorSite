@@ -1,10 +1,13 @@
 import React from "react"
 
+import Logo from "./logo"
+
 const Hero = () => {
   return (
     <section className="hero">
-      <h1>Learn to Speak Spanish
-      When Suits You</h1>
+      <Logo/>
+      <h1 className="hero__heading">Learn to Speak Spanish When Suits You</h1>
+      <p className="hero__paragraph">One to one language lessons with native speaking Spanish teachers</p>
     </section>
   )
 }
