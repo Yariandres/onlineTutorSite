@@ -10,4 +10,6 @@ html {
   font-size: 62.5%; // 1rem = 10px
   font-family: $font-stack;
   color: $font-primary-color;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
 }
