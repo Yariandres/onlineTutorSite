@@ -2,24 +2,14 @@
   color: $font-primary-color;
   letter-spacing: .3rem;
   background-color: $bg-color-light;
-  height: 100vh;
-
-  &__heading {
-    font-size: 4.8rem;
-    font-family: $font-stack;
-    letter-spacing: .3rem;
-    margin-top: $margin-big;
-  }
-  
-  &__paragraph {
-    font-size: 2.5rem;
-    margin-top: $margin-medium;
-  }
+  height: 100vh;  
 
   &__img {
     text-align: right;
     margin-top: $margin-big;
   }
 }
+
+
 
 

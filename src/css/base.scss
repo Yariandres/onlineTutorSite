@@ -1,7 +1,9 @@
 // ABSTRACT
-@import "./abstraction/variables.scss";
+@import "./abstraction/variables";
+@import "./abstraction/typography";
 @import "./abstraction/resets";
-@import "./abstraction/bootstrap-grid.scss";
+@import "./abstraction/bootstrap-grid";
 
 // LAYOUT
-@import "./layouts/hero.scss";
+@import "./layouts/hero";
+@import "./layouts/reviews";
