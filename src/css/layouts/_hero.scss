@@ -2,7 +2,15 @@
   color: $font-primary-color;
   letter-spacing: .3rem;
   background-color: $bg-color-light;
-  height: 100vh;  
+  height: 100vh;
+  
+  &__heading {
+    margin-top: $margin-big;
+  }
+
+  &__paragraph {
+    margin-top: $margin-medium;
+  }
 
   &__img {
     text-align: right;
