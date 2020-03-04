@@ -2,5 +2,20 @@
   height: 40.35rem;
   background-color: $bg-color-grey;
 
+  &__paragraph {
+    margin-top: 15rem;
+   
+  }
+
+  &__name {
+    margin-top: $margin-medium;
+    
+  }
+
+  &__img {
+    // float: left;
+    margin-top: $margin-big;
+  }
+
 }
 
