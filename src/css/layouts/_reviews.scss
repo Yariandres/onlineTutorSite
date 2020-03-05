@@ -8,14 +8,12 @@
   }
 
   &__name {
-    margin-top: $margin-medium;
-    
+    margin-top: $margin-medium;    
   }
 
   &__img {
-    // float: left;
     margin-top: $margin-big;
+    display: inline-block;
   }
-
 }
 
