@@ -7,7 +7,7 @@ const Main = () => {
         <h1 className="text-center text-big main__heading">Learn Spanish</h1>     
 
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-sm-12 col-md-6">
             <div className="form-base">
               <div className="form-base__form">
 
@@ -21,8 +21,19 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
-            <div> text here</div>              
+          <div className="col-sm-12 col-md-6">
+            <div className="main__poly">
+            <div className="main__poly__paragraph">
+                <p className="text-medium main__poly__text">
+                  Click the button. Book a date/time that fits your schedule.
+                </p> 
+                <p className="text-medium main__poly__text">
+                  Once the lesson has been booked, we will both get an email with the link to the lesson</p> 
+                <p className="text-medium main__poly__text">
+                  As easy ast that, so get your first free lesson now
+                </p>
+              </div>
+            </div>              
           </div>
 
         </div>
