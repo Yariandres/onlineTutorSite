@@ -1,5 +1,13 @@
 .features {
+
   &__headline {
     margin-top: $margin-medium;
+  }
+}
+
+.icons {
+  &__wrapper {
+    text-align: center;
+    margin: $margin-medium 0;
   }
 }
