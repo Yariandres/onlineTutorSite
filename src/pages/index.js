@@ -6,6 +6,7 @@ import Reviews from "../components/section-reviews";
 import Main from "../components/section-main";
 import Benefits from "../components/section-benefits";
 import Features from "../components/section-features";
+import Footer from "../components/section-footer";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Main/>
     <Benefits/>
     <Features/>
+    <Footer/>
   </Layout>
 )
 
