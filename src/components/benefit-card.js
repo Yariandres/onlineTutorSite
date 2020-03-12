@@ -17,9 +17,8 @@ const cards = [
 
 const BenefitsCard = () => {   
   return (
-
-    <div className="container">
-      <div className="row">
+    <div className="container mt-5">    
+      <div className="row">      
         {cards.map((item, index) => (        
           <div key={index} className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <div  className="benefits__base">            
