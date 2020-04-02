@@ -4,6 +4,11 @@
   &__heading {
     margin: $margin-big 0 $margin-big 0;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 3rem;
+      margin: $margin-medium 0;         
+    }
   }
 
   &__poly {
@@ -13,6 +18,11 @@
     height: 52.0rem;
     clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
     position: relative;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 3rem;
+      margin: 0;         
+    }
 
     &__paragraph {
       text-align: center;
@@ -32,8 +42,8 @@
 }
 
 .form-base {
-  height: 62.1rem;
-  width: 49.0rem;
+  padding: 16rem 3rem;
+
   background-color: #daecf1;
   position: relative; 
 
@@ -47,15 +57,32 @@
     transform: translate(-50%, 5%);
     padding: 4rem; 
 
-    box-shadow: 0px 3px 17.1px 0.9px rgba(0, 0, 0, 0.1);     
+    box-shadow: 0px 3px 17.1px 0.9px rgba(0, 0, 0, 0.1);
+
+    
+    @media only screen and (max-width: 600px) {
+      height: 26.1rem;
+      width: 29.0rem;
+    }
   }
 
   &__heading {
     margin: $margin-medium;
+
+    @media only screen and (max-width: 600px) {
+      margin: 0;
+      font-size: 1.5rem;   
+    }
   }
 
   &__paragraph {
     margin-bottom: $margin-big;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: $margin-small;
+    }
   }
 
   &__button {
@@ -67,6 +94,12 @@
     transition: all .2s;
 
     cursor: pointer;
+
+    @media only screen and (max-width: 600px) {
+      width: 21rem;
+      height: 5.3rem;
+      text-align: center; 
+    }
 
     &:hover {
       transform: translateY(-3px);
@@ -94,7 +127,11 @@
       position: absolute; 
       top: 25%;
       left: 50%;    
-      transform: translate(-50%, 50%);      
+      transform: translate(-50%, 50%);
+      
+      @media only screen and (max-width: 600px) {
+        font-size: 1rem;
+      }
     }
   }
   

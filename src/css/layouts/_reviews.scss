@@ -4,16 +4,44 @@
 
   &__paragraph {
     margin-top: 15rem;
-   
-  }
+    
+    @media only screen and (max-width: 600px) {
+      font-size: 1.5rem;
+      margin-top: $margin-small;
+      text-align: center;     
+    }
+  }  
 
   &__name {
-    margin-top: $margin-medium;    
+    margin-top: $margin-medium; 
+    
+    @media only screen and (max-width: 600px) {
+      font-size: 1.5rem;
+      margin-top: $margin-small;
+      text-align: center;     
+    }
   }
 
-  &__img {
+  &__holder {
     margin-top: $margin-big;
-    display: inline-block;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+      margin-top: $margin-medium;
+      text-align: center;   
+    }
   }
+
+
+  .reviews__img {
+
+    @media only screen and (max-width: 600px) {
+      width: 40%;
+      height: auto;
+      margin: 0;
+          
+    }
+  }
+  
 }
 

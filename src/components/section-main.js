@@ -7,7 +7,7 @@ const Main = () => {
         <h1 className="text-center text-big main__heading">Learn Spanish</h1>     
 
         <div className="row">
-          <div className="col-sm-12 col-md-6">
+          <div className="col-xs-12 col-sm-6 col-md-6">
             <div className="form-base">
               <div className="form-base__form">
 
@@ -21,7 +21,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-sm-12 col-md-6">
+          <div className="col-xs-12 col-sm-6 col-md-6">
             <div className="main__poly">
             <div className="main__poly__paragraph">
                 <p className="text-medium main__poly__text">

@@ -6,19 +6,51 @@
   
   &__heading {
     margin-top: $margin-big;
+    
+    @media only screen and (max-width: 600px) {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: $margin-small;
+    }
   }
 
   &__paragraph {
     margin-top: $margin-medium;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: $margin-small;
+    }
   }
 
-  &__img {
+  &__holder {
     text-align: right;
     margin-top: $margin-big;
     width: 100%;
     height: auto;
+
+    @media only screen and (max-width: 600px) {     
+      text-align: center;
+      margin-top: $margin-small; 
+    }
   }
+    
+
+  .hero__img {
+
+    @media only screen and (max-width: 600px) {
+      margin-top: $margin-small;
+      width: 50%;
+      height: auto;   
+      
+    }
+
+  }
+  
 }
+
+
 
 
 
