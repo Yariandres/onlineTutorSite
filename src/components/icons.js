@@ -1,49 +1,38 @@
 import React from 'react';
-import { graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
+
+import icon1 from '../images/icons/1.png';
+import icon2 from '../images/icons/2.png';
+import icon3 from '../images/icons/3.png';
+import icon4 from '../images/icons/4.png';
+
+const icons = [ 
+  {
+    icon: icon1,
+    text: "Reading"
+  },
+  {
+    icon: icon2,
+    text: "Speaking"
+  },
+  {
+    icon: icon3,
+    text: "Hearing"
+  },
+  {
+    icon: icon4,
+    text: "Writing"
+  }
+]
 
 const Icons = () => {
-  const data = useStaticQuery(graphql`
-    query icons {
-      icons: allFile(filter: {relativeDirectory: {eq: "icons"}}) {
-        nodes {
-          id
-          childImageSharp {
-            fixed(width: 150, height: 150) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
-      }
-    }    
-  `);
-
-  return (
-    <div className="icons">
-      <div className="row">
-        {data.icons.nodes.map(icon => (
-          <div key={icon.id} className="col-md-3">
-            <div className="icons__wrapper">
-              <Img className="icons__image" key={icon.id} fixed={icon.childImageSharp.fixed} />
-            </div>
+  return (    
+    <div className="row">
+        {icons.map((el, index) => (
+          <div className="col text-center">
+            <img className="features__icons" src={el.icon} alt="icon"/>
+            <p className="features__text mt-4">{el.text}</p>
           </div>
-        ))}        
-      </div>
-      
-      <div className="row">
-        <div className="col-md-3">
-          <p className="text-center text-medium">Reading</p>
-        </div>
-        <div className="col-md-3">
-          <p className="text-center text-medium">Speaking</p>
-        </div>
-        <div className="col-md-3">
-          <p className="text-center text-medium">Hearing</p>
-        </div>
-        <div className="col-md-3">
-          <p className="text-center text-medium">Writing</p>
-        </div>
-      </div> 
+        ))}     
     </div>
   );
 }

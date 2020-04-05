@@ -2,9 +2,13 @@
   width: 100%;
   clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
     background-color: $bg-color-light;
-    height: 37rem;
+    height: auto;
   
   .footer__wrapper {
     padding-top: 20rem;
+  }
+
+  &__text {
+    margin: $margin-small 0;
   }
 }

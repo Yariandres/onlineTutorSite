@@ -5,6 +5,10 @@
 
   transform: skewY(-6deg);
 
+  @media only screen and (max-width: 600px) {
+    height: 90rem;
+  }
+
   .benefit__wrapper {
     transform: skewY(6deg);
   }
@@ -12,27 +16,37 @@
   &__heading {
      text-align: center;
      padding-top: 15rem;
+
+     @media only screen and (max-width: 600px) {
+      padding-top: 7rem;
+      font-size: 2.5rem;
+    }
   } 
 
   &__base {
-    width: 35.8rem;
-    height: 26.0rem;
     background-color: #fff;
+    height: 29rem;
     margin-top: 5rem;
-    position: relative;
-
     box-shadow: 0px 3px 17.1px 0.9px rgba(0, 0, 0, 0.1);
+
+    @media only screen and (max-width: 600px) {
+      margin-top: 3rem;
+      height: 20rem;
+    }
   }     
 
   &__title {
     color: #fff;
     background-color: #e49cd2;
-    width: 100%;
     text-align: center;
     padding: 3rem 1rem;
   }
 
   &__text {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+    }
   }
 }

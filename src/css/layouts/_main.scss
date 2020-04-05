@@ -12,58 +12,47 @@
   }
 
   &__poly {
-    float: right;
     background-color: #30a7c8;
-    width: 34.6rem;
-    height: 52.0rem;
     clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
-    position: relative;
+    padding: 12.5rem 8rem;
+
 
     @media only screen and (max-width: 600px) {
-      font-size: 3rem;
-      margin: 0;         
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 8.5rem 8rem;     
     }
 
     &__paragraph {
       text-align: center;
-      position: absolute;
-      width: 80%;
-      top: -5%;
-      left: 50%;    
-      transform: translate(-50%, 50%);      
+      color: #fff;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1.5rem;     
+      }
     }
 
     &__text {
       &:not(:last-child) {
         margin-bottom: 3rem;
       }
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1.5rem;   
+      }
     }
   }
 }
 
 .form-base {
-  padding: 16rem 3rem;
-
   background-color: #daecf1;
-  position: relative; 
+
 
   .form-base__form {
-    height: 50.26rem;
-    width: 39.0rem;
     background-color: #fff;
-    position: absolute; 
-    top: 5%;
-    left: 50%;    
-    transform: translate(-50%, 5%);
-    padding: 4rem; 
+    padding: 8rem; 
 
     box-shadow: 0px 3px 17.1px 0.9px rgba(0, 0, 0, 0.1);
-
-    
-    @media only screen and (max-width: 600px) {
-      height: 26.1rem;
-      width: 29.0rem;
-    }
   }
 
   &__heading {
@@ -76,7 +65,7 @@
   }
 
   &__paragraph {
-    margin-bottom: $margin-big;
+    margin-bottom: $margin-medium;
 
     @media only screen and (max-width: 600px) {
       font-size: 1.5rem;
@@ -85,21 +74,14 @@
     }
   }
 
-  &__button {
-    width: 30rem;
-    height: 9.3rem;
-    background-color: #fff200;
-    position: relative;
+  &__button {  
     box-shadow: 0px 3px 17.1px 0.9px rgba(0, 0, 0, 0.1);
     transition: all .2s;
-
     cursor: pointer;
 
-    @media only screen and (max-width: 600px) {
-      width: 21rem;
-      height: 5.3rem;
-      text-align: center; 
-    }
+    // @media only screen and (max-width: 600px) {
+    //   text-align: center; 
+    // }
 
     &:hover {
       transform: translateY(-3px);
@@ -120,14 +102,12 @@
 
 
     &__text {
+      background-color: #fff200;
       letter-spacing: .1rem;
       text-align: center;
-      width: 100%;
       font-size: 1.8rem;
-      position: absolute; 
-      top: 25%;
-      left: 50%;    
-      transform: translate(-50%, 50%);
+      padding: 2rem 0;
+
       
       @media only screen and (max-width: 600px) {
         font-size: 1rem;

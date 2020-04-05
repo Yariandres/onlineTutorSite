@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="container-fluid">
-        <Logo/>
+      <Logo/>
       </div>
 
       <div className="container">       
