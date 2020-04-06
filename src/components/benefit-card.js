@@ -11,13 +11,13 @@ const cards = [
     },
     { 
       header: "Business Spanish",
-      body: "A one-of-a-kind lesson to help you do business in the Spanish-speaking worlds"
+      body: "A one-of-a-kind lesson to help you do business in Spanish"
     }
   ];
 
 const BenefitsCard = () => {   
   return (
-    <div className="container mt-5">    
+    <div className="container-fluid">    
       <div className="row">      
         {cards.map((item, index) => (        
           <div key={index} className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">

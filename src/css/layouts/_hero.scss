@@ -2,17 +2,18 @@
   color: $font-primary-color;
   letter-spacing: .3rem;
   background-color: $bg-color-light;
-  height: 100vh;
-  font-size: 2rem;
+  height: auto;
+  padding-bottom: $margin-big;
   
   &__heading {
     margin-top: $margin-small;
     text-align: center;
     
     @media (min-width: 768px) {
-      font-size: 4.8rem;
       margin-top: $margin-big;
-     }
+      text-align: left;
+      font-size: 4.8rem;
+    }
   }
 
   &__paragraph {
@@ -22,7 +23,8 @@
 
     @media (min-width: 768px) {
       font-size: 2.5rem;
-     }
+      text-align: left;
+    }
   }
 
   &__holder {
@@ -30,6 +32,11 @@
     margin-top: $margin-medium;
     width: 100%;
     height: auto;
+
+    @media (min-width: 768px) {
+      
+      text-align: right;
+    }
   } 
   
   &__img {
@@ -37,12 +44,10 @@
     height: auto;
 
     @media (min-width: 768px) {
-      width: 45%;
+      width: 70%;
       height: auto;
      }
-  }
-
-  
+  }  
 }
 
 

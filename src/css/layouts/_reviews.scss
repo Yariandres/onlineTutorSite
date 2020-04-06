@@ -1,11 +1,16 @@
 .reviews {
   height: auto;
   background-color: $bg-color-grey;
+  padding: $margin-big 0;
 
   &__paragraph {
     margin-top: $margin-small;
     padding: 0 1rem;
     text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;   
+    }
   }  
 
   &__name {
@@ -16,12 +21,6 @@
   &__holder {
     text-align: center;
     margin-top: $margin-small;
-  }
-
-
-  .reviews__img {
-
-  }
-  
+  }  
 }
 
