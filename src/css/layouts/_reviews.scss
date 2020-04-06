@@ -1,46 +1,26 @@
 .reviews {
-  height: 40.35rem;
+  height: auto;
   background-color: $bg-color-grey;
 
   &__paragraph {
-    margin-top: 15rem;
-    
-    @media only screen and (max-width: 600px) {
-      font-size: 1.5rem;
-      margin-top: $margin-small;
-      text-align: center;     
-    }
+    margin-top: $margin-small;
+    padding: 0 1rem;
+    text-align: center;
   }  
 
   &__name {
-    margin-top: $margin-medium; 
-    
-    @media only screen and (max-width: 600px) {
-      font-size: 1.5rem;
-      margin-top: $margin-small;
-      text-align: center;     
-    }
+    margin: $margin-medium 0;
+    text-align: center;
   }
 
   &__holder {
-    margin-top: $margin-big;
-
-    @media only screen and (max-width: 600px) {
-      font-size: 1rem;
-      margin-top: $margin-medium;
-      text-align: center;   
-    }
+    text-align: center;
+    margin-top: $margin-small;
   }
 
 
   .reviews__img {
 
-    @media only screen and (max-width: 600px) {
-      width: 40%;
-      height: auto;
-      margin: 0;
-          
-    }
   }
   
 }
