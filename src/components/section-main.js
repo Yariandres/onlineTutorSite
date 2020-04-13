@@ -10,10 +10,10 @@ const Main = () => {
           <div className="main__form mx-auto">
             <h3 className="main__heading text-small text-uppercase text-center">Free 1st lesson</h3>
 
-            <p className="main__paragraph text-medium text-center">I stand by my work that’s why I am offering the first lesson absolutly for free </p>
+            <p className="main__paragraph text-medium text-center">I stand by my work that’s why I am offering the first lesson absolutely for free</p>
 
             <div className="main__button mx-auto">
-              <p className="main__button__text text-uppercase">Book your free lesson</p> 
+              <p className="main__button__text text-uppercase">Book your free lesson</p>
             </div>
           </div>         
         </div>
