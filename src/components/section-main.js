@@ -27,7 +27,7 @@ const Main = () => {
               <p className="text-medium main__poly__text">
                 Once the lesson has been booked, we will both get an email with the link to the lesson</p> 
               <p className="text-medium main__poly__text">
-                As easy ast that, so get your first free lesson now
+                As easy as that, so get your first free lesson now
               </p>
             </div>
           </div>              
