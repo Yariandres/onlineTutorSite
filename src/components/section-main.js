@@ -11,7 +11,7 @@ const Main = () => {
             <h3 className="main__heading text-small text-uppercase text-center">Free 1st lesson</h3>
 
             <p className="main__paragraph text-medium text-center">I stand by my work that’s why I am offering the first lesson absolutely free</p>
-            <p className="main__paragraph text-medium text-center">After that, if you would like to continue with your learning progress the investment for every other lesson will be 30£</p>
+            <p className="main__paragraph text-medium text-center">If you would like to continue with your learning process the investment for every other lesson will be 30£</p>
 
             <div className="main__button mx-auto">
               <p className="main__button__text text-uppercase">Book your free lesson</p>

@@ -16,7 +16,7 @@ const icons = [
   },
   {
     icon: icon3,
-    text: "Hearing"
+    text: "Listening"
   },
   {
     icon: icon4,
